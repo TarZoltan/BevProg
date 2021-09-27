@@ -15,7 +15,9 @@ int main(){
 	
 	if ((age<0) or (age>110)){
 		simple_error("you're kidding!");
-	}
+	};
+	
+	cout << endl;
 	
 	cout << "Dear " << first_name << "," << endl;
 	cout << "I hope this letter finds you in good health and state." << endl;
@@ -24,13 +26,12 @@ int main(){
 	cout << "Have you seen " << friend_name << " lately?" << endl;
 	
 	
-	
-	if (friend_sex == 'M'){
+	if (friend_sex == 'm'){
 		cout << "If you see " << friend_name << " please ask him to call me." << endl;
 		}
-	else{
+	else if(friend_sex == 'f'){
 		cout << "If you see " << friend_name << " please ask her to call me." << endl;
-	};
+		};
 	
 	
 	
