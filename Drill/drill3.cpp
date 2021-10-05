@@ -5,7 +5,7 @@ int main(){
 
 	double a = 0, b = 0, d = 0;
 	char c = 'a';
-	double small = 0, large = 0;
+	double small = 0, large = 1;
 	
 	/* 1 - 5 feladat
 	
