@@ -139,7 +139,7 @@ int main(){
 		cout << v[l] << endl;
 	}
 	
-
+	//cout << "Number of values: " << v.size() << endl;
 	
 	cout << "Max value: " << max << " m" << endl;
 	cout << "Min value: " << min << " m" << endl;
